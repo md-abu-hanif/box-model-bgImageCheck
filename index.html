@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        /* *{
+            margin: 0;
+        } */
+        #first {
+            height: 25vh;
+            border: 5px solid;
+            margin-bottom: 25px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .div1 {
+            border: 5px solid rgb(255, 0, 21);
+            height: 65vh;
+            width: 30%;
+            margin-right: 25px;
+        }
+
+        .div2 {
+            width: 40vw;
+            height: 20vh;
+            border: 5px solid green;
+            margin: 0 25px 25px 0;
+        }
+
+        .div0 {
+            width: 40vw;
+            height: 40vh;
+            border: 5px solid green;
+            margin: 0 25px 25px 0;
+        }
+
+        .div4 {
+            border: 5px solid red;
+            height: 65vh;
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="first"></div>
+    <div class="container">
+        <div class="div1"></div>
+        <div>
+            <div class="div2"></div>
+            <div class="div0"></div>
+        </div>
+        <div class="div4"></div>
+    </div>
+</body>
+
+</html>
